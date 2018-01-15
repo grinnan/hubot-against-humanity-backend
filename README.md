@@ -6,7 +6,7 @@ This project implements the required logic to manage and persist multiples games
 
 ### Heroku
 
-The project have been tested with Heroku and Python 3.4.
+The project have been tested with Heroku and Python 3.6.
 It must have a PostgresSql database set.
 
 You need to generate two random secrets value (You can use `openssl rand -base64 128`). One of those secret must be shared with the Hubot script to authenticate to the API.
